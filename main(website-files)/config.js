@@ -18,6 +18,8 @@ const nftsInfo = {
 if (mintInfo.minUnits > mintInfo.maxUnits) console.error(`Error: minUnits (${mintInfo.minUnits}) is greater than maxUnits (${maxUnits})`);
 if (mintInfo.minUnits <= 0) console.error(`Error: minUnits (${mintInfo.minUnits}) is less than or equal to 0`);
 
+
+
 if (!address.startsWith("0x") ||
     (
         address.length >= 64 ||
